@@ -1,0 +1,111 @@
+html { color: rgba(0, 0, 0, 0.87); }
+.collapse {padding: 0;}
+.uncollapse {padding: 0 2em;}
+span.text-btn { position: relative; bottom: 4px; }
+
+section.top { background: #2A6A79 linear-gradient(-45deg, #65AD9B 0, #324D5A 100%); }
+section.top .logo-spot { display: block; }
+section.top .logo-spot a .logo-small { display: block; margin: 2em 0; }
+section.top .logo-spot a .logo-large { display: block; margin: 3em 0; }
+section.top .logo-spot .menu { background-color: rgba(255, 255, 255, 0.16); font-weight: 300; }
+section.top .logo-spot .menu a.icon { padding: .6em; display: block; text-align: right; color: #fff; font-size: 1.3em; }
+section.top .logo-spot .menu a.icon span { font-size: .8em; display: inline-block; bottom: 3px; position: relative; }
+section.top .logo-spot .menu ul { list-style: none;text-align: center;}
+section.top .logo-spot .menu ul li { display: inline-block; margin-right:2em;}
+section.top .logo-spot .menu ul li a {color: #fff;padding: 1em 0 .4em;display: block;font-size: 1.3em;}
+section.top .logo-spot .menu ul li:last-child {}
+
+section.content {color: #858585;font-weight: 300;}
+section.content p {font-size: 19px;margin: 0 2em 1em 0;}
+section.content span.card-title {font-size: 36px; color: #272727;line-height: 2em;}
+
+
+section.content #quem-somos{padding: 2.5em 0;}
+section.content #quem-somos .btn-large{margin: 1.6em auto 2em; display: block; text-align: center; }
+
+
+section.content #iniciativa {padding: 2.5em 0;}
+section.content #iniciativa .card { position: relative; margin: 0.5rem 0 1rem 0; background-color: #fff; transition: box-shadow .25s; border-radius: 2px;}
+
+section.content #agenda {background-color: #F3F3F3;}
+section.content #agenda span.card-title {color: #005449;}
+section.content #agenda .header {padding: 2em 0 0;}
+section.content #agenda .header span.card-title { }
+
+section.content #agenda .upcoming-event { padding: 0em 0; }
+section.content #agenda .upcoming-event .date-local { margin: 2em 0 0 0; font-weight: 400; font-size: 1.2em; }
+section.content #agenda .upcoming-event .date-local a {  }
+section.content #agenda .upcoming-event .event-name {font-size: 1.2em; margin: 0; line-height: 1.2em; font-weight: 400;margin-top: 1em;}
+section.content #agenda .upcoming-event .event-theme { font-size: 2em; margin: 0; line-height: 1.2em; font-weight: 400;}
+section.content #agenda .upcoming-event span.text-btn { position: relative; bottom: 4px; }
+section.content #agenda .upcoming-event .btn-large { margin: 1.6em 0;position: absolute;bottom: 0}
+
+section.content #agenda .past-events{margin-top:2em;}
+section.content #agenda .past-events a.past-events-btn{margin: 0 auto 2em;display: block;}
+section.content #agenda .past-events .past-events-list{display: none;}
+
+section.content #agenda .past-events .box{margin-bottom: 2em;padding-bottom: 1em;/* border-bottom: 4px solid #C1C1C1; *//* height: 200px; */padding: 0em 1em;}
+
+section.content #agenda .past-events .label {margin: 1em 0}
+section.content #agenda .past-events .date-local { font-weight: 400;font-size: .9em;margin: 0;}
+section.content #agenda .past-events .date-local a {  }
+section.content #agenda .past-events .btn-flat {margin-top: 2.3em;}
+section.content #agenda .past-events .event-name {font-size: 1.2em; margin: 0;line-height: 1.2em; font-weight: 400;margin-top: .5em;}
+section.content #agenda .past-events .event-theme {font-size: 1.4em; margin: 0; line-height: 1.2em; font-weight: 400;}
+
+section.content #equipe {background-color: #b0bec5;padding-bottom: 3em;}
+section.content #equipe span.card-title {color: #263238;}
+section.content #equipe .header {padding: 2em 0 0;text-align: center;}
+section.content #equipe .header p{color: #fff;}
+section.content #equipe .header a{color: #263238;}
+section.content #equipe .header span.card-title { }
+section.content #equipe .members span.card-title {color: #78909c !important;font-size: 1.4em;margin: 0;padding: 0;}
+section.content #equipe .members p {font-size: 1.7em;font-weight: 300;margin: 0;}
+section.content #equipe .members i {float: right;position: relative;top: 10px;}
+section.content #equipe .members p.description {font-size: 1em;}
+section.content #equipe .members .social-buttons {font-size: 1.4em; float: left;position: absolute;bottom: 0;border-top: 1px solid #E8E8E8;width: 85%;}
+section.content #equipe .members .social-buttons ul{}
+section.content #equipe .members .social-buttons ul li{display: inline-block;}
+
+
+section.content #contato { }
+section.content #contato span.card-title { color: #263238; }
+section.content #contato .header {padding: 4em 0; text-align: center;}
+section.content #contato .button-enviar { margin: 2em auto 2em; display: block; }
+section.content #contato #thankyou_message { text-align: center; font-weight: 400 }
+section.content #contato .social-media {background-color: #E8E8E8;padding: 1em 0;}
+section.content #contato .social-media p{color: #263244;margin: 0;}
+section.content #contato .social-media a{color: #263244;font-size: 4em;}
+section.content #contato .social-media ul{
+    margin: 0;
+}
+section.content #contato .social-media ul li{display: inline-block;}
+
+footer {}
+footer .about-us{margin: 2em 0;}
+
+
+
+
+
+
+/*for tablet*/
+@media only screen and (min-width:321px) and (max-width:768px) {
+	section.top .logo-spot .menu ul{display: none;}
+
+}
+
+
+/*for mobile*/
+@media only screen and (max-width: 690px) {
+	
+	section.content #agenda .upcoming-event img {display: none;}
+	section.content #agenda .upcoming-event .event-theme {font-size: 1.6em;}
+	section.content #agenda .upcoming-event .btn-large { margin: 1.6em 0;position: relative;}
+	section.top .logo-spot .menu ul{text-align: left;background-color: #101010;margin: 0;display: none;}
+	section.top .logo-spot .menu ul li{display: block;padding: .6em 1em;border-bottom: 1px solid rgba(255, 255, 255, 0.08);margin-right:0;}
+	section.top .logo-spot .menu ul li a {color: #fff;padding: 0;display: block;font-size: 1em;}
+}
+
+
+
