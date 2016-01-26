@@ -83,6 +83,7 @@ section.content #contato .social-media ul li{display: inline-block;}
 
 footer {}
 footer .about-us{margin: 2em 0;}
+footer .footer-copyright p{margin: 0;}
 
 
 
