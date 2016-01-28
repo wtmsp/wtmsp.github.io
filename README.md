@@ -13,4 +13,4 @@ O formato é sempre descontraído para que aconteça o networking entre os parti
 
 ## Nos acompanhem nas redes sociais
 - https://twitter.com/wtmsaopaulo
-- https://medium.com/women-techmakers-s%C3%A3o-paulo
+- https://medium.com/women-techmakers-são-paulo
