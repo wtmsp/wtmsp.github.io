@@ -1,4 +1,4 @@
-# wtmsp.github.io
+# Women Techmakers São Paulo #WTMSP
 
 ##Site WTMSP
 http://wtmsaopaulo.com.br
