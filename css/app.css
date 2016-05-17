@@ -81,6 +81,16 @@ section.content #contato .social-media ul{
 }
 section.content #contato .social-media ul li{display: inline-block;}
 
+section.content #partners {margin-bottom: 4em;}
+section.content #partners span.card-title {text-align: right;}
+section.content #partners img{}
+section.content #partners img.sponsor{width: 230px;}
+section.content #partners img.partner{width: 150px;}
+
+
+
+
+
 footer {}
 footer .about-us{margin: 2em 0;}
 footer .footer-copyright p{margin: 0;}
