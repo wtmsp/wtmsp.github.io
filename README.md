@@ -1,7 +1,7 @@
 # Women Techmakers São Paulo #WTMSP
 
-##Site WTMSP
-http://wtmsaopaulo.com.br
+## Site WTMSP
+http://wtmsp.org
 Empoderando Mulheres através da Tecnologia
 
 ## Sobre o WTMSP
